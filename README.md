@@ -1,6 +1,6 @@
 # Python_magento_API
 Python interface for using Magento 2.0 Admin APIRest. \
-Secrets keys are encrypted with simmetric encryptation in a SQLite database.
+Secrets keys are encrypted with simmetric encryptation in a SQLite database. \
 Developed at https://dunacore.cloud/
 
 ## Install:
