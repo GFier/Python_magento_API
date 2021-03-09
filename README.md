@@ -6,12 +6,12 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 1. clone the repository.
 2. Fill keys.json in app/data/keys.json with your integration keys found in the magento backend ->system ->integration.
 3. Navigate to your directory and Run in your terminal: \
-     bash install.sh (First install pipenv if is not already installed).
+     `bash install.sh` (First install pipenv if is not already installed).
 5. Now you can delete the keys.json.
 
 ## Import:
 1. On your script located at the root directory \
-      import as --> from `__init__` import APIREST
+      import as --> `from __init__ import APIREST`
 
 ## Run:
 Follow the examples in request_examples.py
