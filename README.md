@@ -17,38 +17,37 @@ Follow the examples in request_examples.py
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
 ### Methods:
-- get: fetch data*\
+- get: fetch data
     - return: Dictionary with following keys:\
       -results -> api response\
       -response:\
-        *status_code: response status
-        *content: response content
+        -status_code: response status
+        -content: response content
    \
-*post: create*\
-    *return: Dictionary with following keys:\
-      a. admin_token -> admin token
-      b. response:\
-        1. status_code: response status
-        2. content: response content    
+-post: create
+    -return: Dictionary with following keys:\
+      -admin_token -> admin token
+      -response:\
+        -status_code: response status
+        -content: response content    
    \
-*put: update*\
-    *return: Dictionary with following keys:\
-      a. admin_token -> admin token
-      b. response:\
-        1. status_code: response status
-        2. content: response content    
-   \  
-*delete: erase*\
-    *return: Dictionary with following keys:\
-      a. admin_token -> admin token
-      b. response:\
-        1. status_code: response status
-        2. content: response content    
-
-
+-put: update
+    -return: Dictionary with following keys:\
+      -admin_token -> admin token
+      -response:\
+        -status_code: response status
+        -content: response content    
+   \
+-delete: erase
+    -return: Dictionary with following keys:\
+      -admin_token -> admin token
+      -response:\
+        -status_code: response status
+        -content: response content    
+ 
 ### Parameters:
-*query_to: Select API endpoint*
-  *options:
+-query_to: Select API endpoint*
+  -options:
     1. orders
     2. products
     3. customer
