@@ -16,43 +16,43 @@ Follow the examples in request_examples.py
 
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
-# Actions:
+### Methods:
   *get: fetch data*\
-    return: Dictionary with following keys:\
+    *return: Dictionary with following keys:\
       a. results -> api response\
       b. response:\
         1. status_code: response status
         2. content: response content
   *post: create*\
-    return: Dictionary with following keys:\
+    *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
         1. status_code: response status
         2. content: response content    
   *put: update*\
-    return: Dictionary with following keys:\
+    *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
         1. status_code: response status
         2. content: response content    
   *delete: erase*\
-    return: Dictionary with following keys:\
+    *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
         1. status_code: response status
         2. content: response content    
 
 
-##Parameters:
+### Parameters:
 *query_to: Select API endpoint*
-  options:
+  *options:
     1. orders
     2. products
     3. customer
     4. stockItems
     5. categories
 
-##Options:
+### Options:
 filter: get options
   1. by_create_date: get orders since certain create-date.
     parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
