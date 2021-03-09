@@ -5,8 +5,9 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 ## Install:
 1. clone the repository.
 2. Fill keys.json in app/data/keys.json with your integration keys found in the magento backend ->system ->integration.
-3. Navigate to your directory and Run in your terminal: bash install.sh (First install pipenv if is not already installed).
-4. Now you can delete the keys.json.
+3. Navigate to your directory and Run in your terminal: \
+     bash install.sh (First install pipenv if is not already installed).
+5. Now you can delete the keys.json.
 
 ## Import:
 1. On your script located at the root directory, import as --> from __init__ import APIREST
@@ -54,25 +55,25 @@ Follow the examples in request_examples.py
 ### Options:
 - filter: get options
   1. by_create_date: get orders since certain create-date.
-    parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
+    - parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
   2. by_create_and_update_date: get orders since certain update-date and create date 14 days before.
-    parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
+    - parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
   3. prod_by_sku: get product by sku.
-    parameter: sku, string.
+    - parameter: sku, string.
   4. by_id: get product by id.
-    parameter: id, string.
+    - parameter: id, string.
   5. all_products: fetch all products.
-    parameter: None.
+    - parameter: None.
   6. prod_stock: get product quantity.
-    parameter: sku, string.
+    - parameter: sku, string.
   7. by_customer_id: get customer by id.
-    parameter: customer id, string.
+    - parameter: customer id, string.
   8. by_address_id: get customer by address id.
-    parameter: address id, string.
+    - parameter: address id, string.
   9. by_shipping_id: get customer shipping address by id.
-    parameter: shipping id, string.
+    - parameter: shipping id, string.
   10. by_billing_id: get customer billing address by id.
-    parameter: billing id, string.
+    - parameter: billing id, string.
 
 - save_json: save results to json file.
 - pagesize: pagesize for pagination.
