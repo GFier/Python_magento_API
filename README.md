@@ -1,5 +1,5 @@
 # Python_magento_API
-Python app to use Magento 2.0 Admin APIRest.
+Python app to use Magento 2.0 Admin APIRest. \
 Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 
 ## Install:
@@ -19,25 +19,25 @@ Follow the examples in request_examples.py
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
 ### Methods:
-- get: fetch data
+- `get:`
     - return: Dictionary with following keys:
       - results: api response
       - response:
         - status_code: response status
         - content: response content
-- post: create data
+- `post:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
         - status_code: response status
         - content: response content    
-- put: update data
+- `put:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
         - status_code: response status
         - content: response content    
-- delete: erase data
+- `delete:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
@@ -45,7 +45,7 @@ Follow the examples in request_examples.py
         - content: response content    
  
 ### Parameters:
-- query_to: Select API endpoint*
+- `query_to: Select API endpoint`
   - options:
     - orders
     - products
@@ -54,7 +54,7 @@ Follow the examples in request_examples.py
     - categories
 
 ### Options:
-- filter: get options
+- `filter:`
   1. by_create_date: get orders since certain create-date.
     - parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
   2. by_create_and_update_date: get orders since certain update-date and create date 14 days before.
@@ -76,6 +76,6 @@ Follow the examples in request_examples.py
   10. by_billing_id: get customer billing address by id.
     - parameter: billing id, string.
 
-- save_json: save results to json file.
-- pagesize: pagesize for pagination.
-- data: only for post and put, data in dictionary as stated in magento docs
+- `save_json`: save results to json file.
+- `pagesize`: pagesize for pagination.
+- `data`: only for post and put, data in dictionary as stated in magento docs
