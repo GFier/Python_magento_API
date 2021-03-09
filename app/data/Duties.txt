@@ -1,0 +1,21 @@
+Work to do:
+
+Arreglar imagenes kiwano (Done)
+
+Dejar listo multinchannel magento-tiendanube para kiwano (Falta testing)
+
+empezar a ver alambic (Done)
+
+Hacer historicos (Haciendo)
+
+Emepzar SOAP:
+
+Usuario: federico
+Clave: Pimpilito26
+
+
+Hacer clases para wahtsapp (Done)
+
+Hacer facebook marketing (Done)
+
+Urls de migraciones
