@@ -17,14 +17,14 @@ Follow the examples in request_examples.py
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
 ### Methods:
-  *get: fetch data*\
-    *return: Dictionary with following keys:\
-      *results -> api response\
-      *response:\
+- get: fetch data*\
+    - return: Dictionary with following keys:\
+      -results -> api response\
+      -response:\
         *status_code: response status
         *content: response content
    \
-  *post: create*\
+*post: create*\
     *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
@@ -38,7 +38,7 @@ Follow the examples in request_examples.py
         1. status_code: response status
         2. content: response content    
    \  
-  *delete: erase*\
+*delete: erase*\
     *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
