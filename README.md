@@ -23,21 +23,18 @@ Follow the examples in request_examples.py
       -response:\
         -status_code: response status
         -content: response content
-   \
 -post: create
     -return: Dictionary with following keys:\
       -admin_token -> admin token
       -response:\
         -status_code: response status
         -content: response content    
-   \
 -put: update
     -return: Dictionary with following keys:\
       -admin_token -> admin token
       -response:\
         -status_code: response status
         -content: response content    
-   \
 -delete: erase
     -return: Dictionary with following keys:\
       -admin_token -> admin token
@@ -48,11 +45,11 @@ Follow the examples in request_examples.py
 ### Parameters:
 -query_to: Select API endpoint*
   -options:
-    1. orders
-    2. products
-    3. customer
-    4. stockItems
-    5. categories
+    -orders
+    -products
+    -customer
+    -stockItems
+    -categories
 
 ### Options:
 filter: get options
