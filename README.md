@@ -19,25 +19,25 @@ Follow the examples in request_examples.py
 ### Methods:
 - get: fetch data
     - return: Dictionary with following keys:
-      - results -> api response
+      - results: api response
       - response:
         - status_code: response status
         - content: response content
-- post: create
+- post: create data
     - return: Dictionary with following keys:
-      - admin_token -> admin token
+      - admin_token: admin token
       - response:
         - status_code: response status
         - content: response content    
-- put: update
+- put: update data
     - return: Dictionary with following keys:
-      - admin_token -> admin token
+      - admin_token: admin token
       - response:
         - status_code: response status
         - content: response content    
-- delete: erase
+- delete: erase data
     - return: Dictionary with following keys:
-      - admin_token -> admin token
+      - admin_token: admin token
       - response:
         - status_code: response status
         - content: response content    
@@ -52,7 +52,7 @@ Follow the examples in request_examples.py
     - categories
 
 ### Options:
-filter: get options
+- filter: get options
   1. by_create_date: get orders since certain create-date.
     parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
   2. by_create_and_update_date: get orders since certain update-date and create date 14 days before.
@@ -74,6 +74,6 @@ filter: get options
   10. by_billing_id: get customer billing address by id.
     parameter: billing id, string.
 
-save_json: save results to json file.
-pagesize: pagesize for pagination.
-data: only for post and put, data in dictionary as stated in magento docs
+- save_json: save results to json file.
+- pagesize: pagesize for pagination.
+- data: only for post and put, data in dictionary as stated in magento docs
