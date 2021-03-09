@@ -14,31 +14,31 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 ## Run:
 Follow the examples in request_examples.py
 
-#Documentation:
+## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
-## Actions:
-  *get: fetch data*
-    return: Dictionary with following keys:
-      a. results -> api response
-      b. response:
+# Actions:
+  *get: fetch data*\
+    return: Dictionary with following keys:\
+      a. results -> api response\
+      b. response:\
         1. status_code: response status
         2. content: response content
-  *post: create*
-    return: Dictionary with following keys:
+  *post: create*\
+    return: Dictionary with following keys:\
       a. admin_token -> admin token
-      b. response:
+      b. response:\
         1. status_code: response status
         2. content: response content    
-  *put: update*
-    return: Dictionary with following keys:
+  *put: update*\
+    return: Dictionary with following keys:\
       a. admin_token -> admin token
-      b. response:
+      b. response:\
         1. status_code: response status
         2. content: response content    
-  *delete: erase*
-    return: Dictionary with following keys:
+  *delete: erase*\
+    return: Dictionary with following keys:\
       a. admin_token -> admin token
-      b. response:
+      b. response:\
         1. status_code: response status
         2. content: response content    
 
