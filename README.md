@@ -19,37 +19,37 @@ Follow the examples in request_examples.py
 ### Methods:
 - get: fetch data
     - return: Dictionary with following keys:
-      -results -> api response
-      -response:
-        -status_code: response status
-        -content: response content
--post: create
-    -return: Dictionary with following keys:
-      -admin_token -> admin token
-      -response:
-        -status_code: response status
-        -content: response content    
--put: update
-    -return: Dictionary with following keys:
-      -admin_token -> admin token
-      -response:
-        -status_code: response status
-        -content: response content    
--delete: erase
-    -return: Dictionary with following keys:
-      -admin_token -> admin token
-      -response:
-        -status_code: response status
-        -content: response content    
+      - results -> api response
+      - response:
+        - status_code: response status
+        - content: response content
+- post: create
+    - return: Dictionary with following keys:
+      - admin_token -> admin token
+      - response:
+        - status_code: response status
+        - content: response content    
+- put: update
+    - return: Dictionary with following keys:
+      - admin_token -> admin token
+      - response:
+        - status_code: response status
+        - content: response content    
+- delete: erase
+    - return: Dictionary with following keys:
+      - admin_token -> admin token
+      - response:
+        - status_code: response status
+        - content: response content    
  
 ### Parameters:
--query_to: Select API endpoint*
-  -options:
-    -orders
-    -products
-    -customer
-    -stockItems
-    -categories
+- query_to: Select API endpoint*
+  - options:
+    - orders
+    - products
+    - customer
+    - stockItems
+    - categories
 
 ### Options:
 filter: get options
