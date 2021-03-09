@@ -1,6 +1,7 @@
 # Python_magento_API
-Python app to use Magento 2.0 Admin APIRest. \
+Python interface for using Magento 2.0 Admin APIRest. \
 Secrets keys are encrypted with simmetric encryptation in a SQLite database.
+Developed at https://dunacore.cloud/
 
 ## Install:
 1. clone the repository.
@@ -15,7 +16,8 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
       import as --> `from __init__ import APIREST`
 
 ## Run:
-Follow the examples in request_examples.py
+Follow the examples in request_examples.py \
+`pipenv run python request_examples.py`
 
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
