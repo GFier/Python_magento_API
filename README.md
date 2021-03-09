@@ -19,22 +19,25 @@ Follow the examples in request_examples.py
 ### Methods:
   *get: fetch data*\
     *return: Dictionary with following keys:\
-      a. results -> api response\
-      b. response:\
-        1. status_code: response status
-        2. content: response content
+      *results -> api response\
+      *response:\
+        *status_code: response status
+        *content: response content
+   \
   *post: create*\
     *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
         1. status_code: response status
         2. content: response content    
-  *put: update*\
+   \
+*put: update*\
     *return: Dictionary with following keys:\
       a. admin_token -> admin token
       b. response:\
         1. status_code: response status
         2. content: response content    
+   \  
   *delete: erase*\
     *return: Dictionary with following keys:\
       a. admin_token -> admin token
