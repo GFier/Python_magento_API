@@ -10,7 +10,8 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 5. Now you can delete the keys.json.
 
 ## Import:
-1. On your script located at the root directory, import as --> from __init__ import APIREST
+1. On your script located at the root directory \
+      import as --> from __init__ import APIREST
 
 ## Run:
 Follow the examples in request_examples.py
