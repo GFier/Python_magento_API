@@ -1,6 +1,7 @@
 # Python_magento_API
-Python app to use Magento 2.0 Admin APIRest. \
-Secrets keys are encrypted with simmetric encryptation in a SQLite database.
+Python interface for using Magento 2.0 Admin APIRest. \
+Secrets keys are encrypted with simmetric encryptation in a SQLite database. \
+Developed at https://dunacore.cloud/
 
 ## Install:
 1. clone the repository.
@@ -15,7 +16,8 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
       import as --> `from __init__ import APIREST`
 
 ## Run:
-Follow the examples in request_examples.py
+Follow the examples in request_examples.py \
+`pipenv run python request_examples.py`
 
 ## Documentation:
 [Magento docs](https://magento.redoc.ly/2.4.2-admin/) 
@@ -56,25 +58,25 @@ Follow the examples in request_examples.py
 
 ### Options:
 - `filter:`
-  1. by_create_date: get orders since certain create-date.
+  - by_create_date: get orders since certain create-date.
     - filter field: parameter -> date, string format %Y-%m-%d %H:%M:%S.
-  2. by_create_and_update_date: get orders since certain update-date and create date 14 days before.
+  - by_create_and_update_date: get orders since certain update-date and create date 14 days before.
     - filter field: parameter -> date, string format %Y-%m-%d %H:%M:%S.
-  3. prod_by_sku: get product by sku.
+  - prod_by_sku: get product by sku.
     - filter field: parameter -> sku, string.
-  4. by_id: get product by id.
+  - by_id: get product by id.
     - filter field: parameter -> id, string.
-  5. all_products: fetch all products.
+  - all_products: fetch all products.
     - filter field:: None.
-  6. prod_stock: get product quantity.
+  - prod_stock: get product quantity.
     - filter field: parameter -> sku, string.
-  7. by_customer_id: get customer by id.
+  - by_customer_id: get customer by id.
     - filter field: parameter -> customer id, string.
-  8. by_address_id: get customer by address id.
+  - by_address_id: get customer by address id.
     - filter field: parameter -> address id, string.
-  9. by_shipping_id: get customer shipping address by id.
+  - by_shipping_id: get customer shipping address by id.
     - filter field: parameter -> shipping id, string.
-  10. by_billing_id: get customer billing address by id.
+  - by_billing_id: get customer billing address by id.
     - filter field: parameter -> billing id, string.
 
 - `save_json`: optional, save results to json file.
