@@ -56,25 +56,25 @@ Follow the examples in request_examples.py
 ### Options:
 - `filter:`
   1. by_create_date: get orders since certain create-date.
-    - parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
+    - filter field: parameter -> date, string format %Y-%m-%d %H:%M:%S.
   2. by_create_and_update_date: get orders since certain update-date and create date 14 days before.
-    - parameter: filter field: date, string format %Y-%m-%d %H:%M:%S.
+    - filter field: parameter -> date, string format %Y-%m-%d %H:%M:%S.
   3. prod_by_sku: get product by sku.
-    - parameter: sku, string.
+    - filter field: parameter -> sku, string.
   4. by_id: get product by id.
-    - parameter: id, string.
+    - filter field: parameter -> id, string.
   5. all_products: fetch all products.
-    - parameter: None.
+    - filter field:: None.
   6. prod_stock: get product quantity.
-    - parameter: sku, string.
+    - filter field: parameter -> sku, string.
   7. by_customer_id: get customer by id.
-    - parameter: customer id, string.
+    - filter field: parameter -> customer id, string.
   8. by_address_id: get customer by address id.
-    - parameter: address id, string.
+    - filter field: parameter -> address id, string.
   9. by_shipping_id: get customer shipping address by id.
-    - parameter: shipping id, string.
+    - filter field: parameter -> shipping id, string.
   10. by_billing_id: get customer billing address by id.
-    - parameter: billing id, string.
+    - filter field: parameter -> billing id, string.
 
 - `save_json`: save results to json file.
 - `pagesize`: pagesize for pagination.
