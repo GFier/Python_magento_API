@@ -82,7 +82,7 @@ APIREST(query_to = 'customers', filter= 'by_address_id',filter_field = '10', sav
 APIREST(query_to = 'customers', filter= 'by_shipping_id', filter_field = '16', save_json= True).get()
 
 # By customer billing address Id:
-APIREST(query_to = 'customers', filter= 'by_shipping_id', filter_field = '6', save_json= True).get()
+APIREST(query_to = 'customers', filter= 'by_billing_id', filter_field = '6', save_json= True).get()
 
 '''
 Orders queries examples:
