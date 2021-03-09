@@ -4,7 +4,7 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 
 ## Install:
 1. clone the repository.
-2. Fill `eys.json` in `app/data/keys.json` with your integration keys \
+2. Fill `keys.json` in `app/data/keys.json` with your integration keys \
  found in the magento backend ->system ->integration.
 4. Navigate to your directory and Run in your terminal: \
      `bash install.sh` (First install pipenv if is not already installed).
@@ -25,25 +25,25 @@ Follow the examples in request_examples.py
       - results: api response
       - response:
         - status_code: response status
-        - content: response content
+        - content: response content (use for error description)
 - `post:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
         - status_code: response status
-        - content: response content    
+        - content: response content (use for error description)   
 - `put:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
         - status_code: response status
-        - content: response content    
+        - content: response content (use for error description)   
 - `delete:`
     - return: Dictionary with following keys:
       - admin_token: admin token
       - response:
         - status_code: response status
-        - content: response content    
+        - content: response content (use for error description)   
  
 ### Parameters:
 - `query_to: Select API endpoint`
