@@ -4,8 +4,9 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 
 ## Install:
 1. clone the repository.
-2. Fill keys.json in app/data/keys.json with your integration keys found in the magento backend ->system ->integration.
-3. Navigate to your directory and Run in your terminal: \
+2. Fill `eys.json` in `app/data/keys.json` with your integration keys \
+ found in the magento backend ->system ->integration.
+4. Navigate to your directory and Run in your terminal: \
      `bash install.sh` (First install pipenv if is not already installed).
 5. Now you can delete the keys.json.
 
@@ -76,6 +77,6 @@ Follow the examples in request_examples.py
   10. by_billing_id: get customer billing address by id.
     - filter field: parameter -> billing id, string.
 
-- `save_json`: save results to json file.
-- `pagesize`: pagesize for pagination.
+- `save_json`: optional, save results to json file.
+- `pagesize`: optional, pagesize for pagination.
 - `data`: only for post and put, data in dictionary as stated in magento docs
