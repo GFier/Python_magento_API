@@ -11,7 +11,7 @@ Secrets keys are encrypted with simmetric encryptation in a SQLite database.
 
 ## Import:
 1. On your script located at the root directory \
-      import as --> from __init__ import APIREST
+      import as --> from `__init__` import APIREST
 
 ## Run:
 Follow the examples in request_examples.py
