@@ -1,5 +1,6 @@
+# Do not end URL with / neither include /rest/default/V1/
 {
-  "url": "https://your_url.com", // Do not end URL with / neither include /rest/default/V1/
+  "url": "https://your_url.com", 
   "consumer_key": "",
   "consumer_secret": "",
   "access_token":"",
